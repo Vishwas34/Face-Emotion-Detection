@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategray;
+    margin: 0; 
+    overflow: hidden; 
+}
+
+canvas {
+    position: absolute;
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+@media (max-width: 768px) {
+    canvas {
+        width: 100%; 
+        height: auto;
+    }
+}
